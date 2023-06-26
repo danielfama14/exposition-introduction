@@ -1,15 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Favela's Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>Developer's Portfolio</title>
 </head>
 <body>
     <header>
         <h1> Portfolio </h1>
-        <!--added list of items to navigation with hyperlinks-->
         <nav>
+<!--added list of items to navigation with hyperlinks-->
             <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#work">Work</a></li>
@@ -17,15 +18,43 @@
             </ul>
         </nav>
     </header>
-    <!--added id identifiers-->
+<!--added id identifiers to section elements-->
     <section id="about">
-        <h2> Daniel A. Favela </h2>
+        <h2>Daniel A. Favela</h2>
+        <img src="./assets/images/daniel.jpg" height=400 alt="Developer's Photo">
+<!--added developer's description in 2 paragraphs-->
+        <p> Hello, and welcome to my portfolio! My name is Daniel Favela, and I am a passionate individual based in San Diego, California. With a diverse range of skills and experiences, I have dedicated the past decade to working with children, particularly focusing on the special needs population. Allow me to provide you with a glimpse into my background and expertise.
+
+            Education has been a fundamental pillar in shaping my journey. I hold a bachelor's degree in psychology, which has granted me valuable insights into understanding the complexities of human behavior and development. This academic foundation has significantly contributed to my ability to connect with and support children in their unique and individual journeys.
+            
+            Throughout my career, I have had the privilege of working closely with children from various backgrounds and abilities. My experience predominantly centers around providing care and assistance to the special needs community. This work has fostered my empathy, patience, and adaptability, allowing me to create inclusive environments and tailored approaches to meet each child's specific needs.
+            
+            One of my core strengths lies in my bilingualism, as I am fluent in both English and Spanish. In my role as a caregiver and advocate, I have been able to witness the profound impact that consistent support and a nurturing environment can have on a child's growth and development. I take great pride in fostering their independence, promoting their overall well-being, and facilitating their social and emotional growth.
+            
+            This portfolio serves as a testament to my commitment, dedication, and passion for working with children, particularly within the special needs community. I invite you to explore the collection of my experiences, accomplishments, and the positive outcomes achieved through my work.
+            
+            Thank you for taking the time to get to know me.
+        </p>  
+            
+            <p>Warm regards, Daniel Favela.</p>
     </section>
     <section id="work">
-        <h3> Work </h3>
+        <h3>Work</h3>
+        <div class="applications">
+<!--added work projects: links, images, title, and alernate text-->
+          <a href="https://danielfama14.github.io/first-coding-encounter/"><img src="./assets/images/first-coding-encounter.png" height= "200" alt="This is a website for 'Horiseon', a company of social media marketing services." title="Horiseon"></a>
+          <a href="https://danielfama14.github.io/prework-study-guide/"><img src="./assets/images/prework-study-guide.png" height= "200" alt="This is a website with a study guide for the prework material of a coding bootcamp." title="Prework Study Guide" ></a>
+        </div>
     </section>
     <section id="contact">
-        <h4>Contact</p>
+        <h4>Contact</h4>
+        <ul>
+<!--added list of contact information with 'strong' element-->
+            <li><strong>Name:</strong> Daniel Favela</li>
+            <li><strong>Location:</strong> San Diego, California</li>
+            <li><strong>Email:</strong> danielfama14@gmail.com</li>
+            <li><strong>Phone:</strong> (619) 386-9266</li>
+        </ul>
     </section>
 </body>
 </html>
